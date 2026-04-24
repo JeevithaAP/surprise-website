@@ -7,7 +7,7 @@ st.set_page_config(page_title="Dashboard", layout="wide")
 st.title("📊 Data Analytics Dashboard")
 
 # Load data
-df = pd.read_csv("superstore.csv")
+df = pd.read_csv("Nassau.csv")
 
 # Sidebar filters
 st.sidebar.header("Filters")
